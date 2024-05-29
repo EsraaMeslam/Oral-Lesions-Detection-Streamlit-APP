@@ -51,8 +51,6 @@ The CNN model is trained using a dataset of oral lesion images. The images are p
 <li>Pillow==9.2.0</li>
 </ul>
 
-![image](https://github.com/EsraaMeslam/Oral-Lesions-Detection-Streamlit-APP/assets/144518973/44fdcd48-9b2a-4851-a843-17d6dc0231ce)
-
 
 
 
