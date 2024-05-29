@@ -20,18 +20,29 @@ The dataset includes color images of oral lesions captured using mobile cameras 
 <li>Receive Informed Analysis: Within moments, receive a detailed analysis of the lesion, including whether it's benign or malignant, along with confidence levels for the prediction.</li>
 </ul>
 
-<h3>Model Building</h3>
+<h3>1.Model Building</h3>
 A powerful Convolutional Neural Network (CNN) model is built using TensorFlow and Keras. The model architecture includes multiple Conv2D layers followed by BatchNormalization and MaxPooling2D layers to extract features from the input images.
 
-<h3>Model Training</h3>
+<h3>2.Model Training</h3>
 The CNN model is trained using a dataset of oral lesion images. The images are preprocessed, including resizing, to match the input size expected by the model. The model is trained to classify the lesions into benign or malignant categories.
 
-<h3>Model Evaluation<\h3> The trained model is evaluated using validation data to assess its performance in terms of accuracy, precision, recall, and other relevant metrics.
-<h3>Model Deployment</h3> Once the model is trained and evaluated, it is saved to a file (CNN_model__.h5) for future use. This file is then loaded in the web application for real-time predictions.
+<h3>3.Model Evaluation</h3> The trained model is evaluated using validation data to assess its performance in terms of accuracy, precision, recall, and other relevant metrics.
+<h3>Model Deployment</h3>Once the model is trained and evaluated, it is saved to a file (CNN_model__.h5) for future use. This file is then loaded in the web application for real-time predictions.
 
-<h3>Prediction Process</h3> When a user uploads an image of an oral lesion and clicks the 'Predict' button, the image is passed through the loaded CNN model for prediction. The model predicts whether the lesion is benign or malignant and returns the result along with a confidence score.
+<h3>4.Prediction Process</h3> When a user uploads an image of an oral lesion and clicks the 'Predict' button, the image is passed through the loaded CNN model for prediction. The model predicts whether the lesion is benign or malignant and returns the result along with a confidence score.
 
-<h3>Result Display<\h3> The prediction result, along with the confidence score, is displayed to the user on the web application interface. If the lesion is predicted as malignant, the user is advised to consult a doctor for further evaluation.
+<h3>5.Result Display</h3> The prediction result, along with the confidence score, is displayed to the user on the web application interface. If the lesion is predicted as malignant, the user is advised to consult a doctor for further evaluation.
+
+
+<h3>How the app Works:</h3>
+<ul>
+<li>Upload an Image: Simply upload a clear image of the oral lesion you want to analyze. Our intuitive interface makes the process seamless.</li>
+
+<li>Click Predict: Once the image is uploaded, hit the 'Predict' button, and our advanced deep learning model goes to work.</li>
+
+<li>Receive Informed Analysis: Within moments, receive a detailed analysis of the lesion, including whether it's benign or malignant, along with confidence levels for the prediction.</li>
+</ul>
+
 <h3>Requirements</h3>
 <ul>
 <li>numpy==1.24.3</li>
@@ -39,6 +50,9 @@ The CNN model is trained using a dataset of oral lesion images. The images are p
 <li>tensorflow==2.14.0</li>
 <li>Pillow==9.2.0</li>
 </ul>
+
+![image](https://github.com/EsraaMeslam/Oral-Lesions-Detection-Streamlit-APP/assets/144518973/44fdcd48-9b2a-4851-a843-17d6dc0231ce)
+
 
 
 
