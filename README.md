@@ -6,7 +6,7 @@ This repository contains the implementation of a deep learning model (CNN) for O
 Dataset link:(https://www.kaggle.com/datasets/mohamedgobara/oral-lesions-malignancy-detection-dataset)<br>
 My Code:(https://www.kaggle.com/code/esraameslamsayed/oral-lesions-detection-cnn)
 
-<h3>ow the app Works:</h3>h3>
+<h3>How it Works:</h3>
 <ul>
 <li>Upload an Image: Simply upload a clear image of the oral lesion you want to analyze. Our intuitive interface makes the process seamless.</li>
 
@@ -14,3 +14,16 @@ My Code:(https://www.kaggle.com/code/esraameslamsayed/oral-lesions-detection-cnn
 
 <li>Receive Informed Analysis: Within moments, receive a detailed analysis of the lesion, including whether it's benign or malignant, along with confidence levels for the prediction.</li>
 </ul>
+
+
+<h3>PreRequirements</h3>
+<ul>
+<li>numpy==1.24.3</li>
+<li>streamlit==1.34.0</li>
+<li>tensorflow==2.14.0</li>
+<li>Pillow==9.2.0</li>
+</ul>
+
+
+
+
